@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Username:</strong>
+  <%= @demo.username %>
+</p>
+
+<p>
+  <strong>Password:</strong>
+  <%= @demo.password %>
+</p>
+
+<%= link_to 'Edit', edit_demo_path(@demo) %> |
+<%= link_to 'Back', demos_path %>
